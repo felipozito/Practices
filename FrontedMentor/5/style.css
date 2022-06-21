@@ -1,0 +1,24 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+:root {
+      --Pink: hsl(322, 100%, 66%);
+      --Vry_Pale_Cyan: hsl(193, 100%, 96%);
+      --Very_Dark_Cyan: hsl(192, 100%, 9%);
+      --Vayish_Blue: hsl(208, 11%, 55%);
+}
+.navbar {
+      display: flex;
+      justify-content: space-between;
+      background-color: var(--Vayish_Blue);
+      height: 60px;
+}
+.logo {
+      margin-left: 20px;
+}
+.navbar_btn {
+      border-radius: 20px;
+      background: var(--Vry_Pale_Cyan);
+}
